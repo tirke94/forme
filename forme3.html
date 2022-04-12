@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forme3.css">
+</head>
+
+<body>
+    <div id="osnovni">
+        <div id="naslov">
+            <h1>User Form</h1>
+        </div>
+        <form action="" method="get" enctype="application/x-www-form-urlencoded">
+            <div id="flex">
+                <div>
+                    <label class="left" for="ime">Enter Name</label>
+                    <div class="right">
+                        <input type="text" id="ime" name="ime">
+                    </div>
+                </div>
+                <div>
+                    <label class="left" for="pass">Enter Password</label>
+                    <div class="right">
+                        <input type="password" id="pass" name="password">
+                    </div>
+                </div>
+                <div id="divArea">
+                    <label class="left" for="address">Enter Address</label>
+                    <textarea name="address" id="address" cols="30" rows="10"
+                        placeholder="country, city, street..."></textarea>
+                </div>
+                <div id="selectGame">
+                    <label class="left" for="selectGame">Select Game</label>
+                    <div class="right" id="checkbox">
+                        <div>
+                            <input type="checkbox" name="game" id="hockey">
+                            <label for="hockey">Hockey</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="game" id="football">
+                            <label for="football">Football</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="game" id="bagminton">
+                            <label for="bagminton">Bagminton</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="game" id="cricket">
+                            <label for="cricket">Cricket</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="game" id="volleyball">
+                            <label for="volleyball">Volleyball</label>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <label class="left" for="gender">Gender</label>
+                    <div class="right" id="gender">
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+                <div>
+                    <label class="left" for="age">Select your age</label>
+                    <div class="right">
+                        <input type="number" name="godine" id="age" min="7" max="100"
+                            placeholder="please select...">
+                    </div>
+                </div>
+            </div>
+            <div id="divFile">
+                <input type="file" name="file" id="file" value="Browse..">
+            </div>
+            <div id="resetSubmit">
+                <input type="reset" id="reset" name="reset" value="Reset">
+                <input type="submit" id="submit" name="submit" value="Submit Form">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

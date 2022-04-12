@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forme.css">
+</head>
+
+<body>
+    <div id="singUp">
+        <p>Sing Up</p>
+    </div>
+    <form action="">
+        <div>
+            <label class="left" for="firstName">First Name:</label>
+            <input class="right" type="text" name="firstName" id="firstName" placeholder="Enter first name" required>
+        </div>
+        <div>
+            <label class="left" for="lastName">Last Name:</label>
+            <input class="right" type="text" name="lastName" id="lastName" placeholder="Enter last name" required>
+        </div>
+        <div>
+            <label class="left" for="date">Date of Birth:</label>
+            <input class="right" type="date" name="date" id="date" min="1900-01-01">
+        </div>
+        <div>
+            <label class="left" for="">Gender</label>
+            <div class="right" id="gender">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+            </div>
+        </div>
+        <div>
+            <label class="left" for="country">Country</label>
+            <select class="right" name="country" id="country" >
+                <option value="srbija">Srbija</option>
+                <option value="madjarska">Madjarska</option>
+                <option value="bugarska">Bugarska</option>
+                <option value="italija">Italija</option>
+            </select>
+        </div>
+        <div>
+            <label class="left" for="email">E-mail</label>
+            <input class="right" type="email" name="email" id="email" placeholder="Enter E-mail">
+        </div>
+        <div>
+            <label class="left" for="phone">Phone</label>
+            <input class="right" type="tel" name="tel" id="phone" placeholder="Enter phone" required>
+        </div>
+        <div>
+            <label class="left" for="pass">Password</label>
+            <input class="right" type="pass" name="password" id="pass" required>
+        </div>
+        <div>
+            <label class="left" for="comPass">Comfirm Password</label>
+            <input class="right" type="pass" name="password" id="comPass" required>
+        </div>
+        <div class="left">
+        </div>
+        <div id="Iagree">
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">I Agree to the terms of use</label>
+        </div>
+        <div id="poslednji">
+            <input type="submit" value="Submit Query" id="sub">
+            <input type="reset" value="Cancel" id="cancel">
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+form{
+    background-color: #0e051f;
+    width: 70%;
+    margin: auto;
+}
+#singUp{
+    margin: auto;
+    margin-top: 5rem;
+    width: 70%;
+    background-color: #cc7314;
+    color: #deda10;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#singUp p{
+    margin-left: 10px;
+}
+.left{
+    width: 20%;
+    color: #deda10;
+    text-align: right;
+}
+.right{
+    width: 30%;
+    color: black;
+    text-align: left;
+}
+form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+input{
+    height: 1.6rem;
+    padding-left: 10px;
+}
+#gender{
+    color: #deda10;
+}
+#gender{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 5px;
+}
+
+#Iagree{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    color: #deda10;
+    column-gap: 0px;
+}
+#poslednji{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 3px;
+    background-color: #cc7314;
+    padding-right: 2rem;
+}
+#sub{
+    background-color: #1cad1a;
+    color: aliceblue;
+    width: 10rem;
+}
+#cancel{
+    background-color: red;
+    color: aliceblue;
+    width: 8rem;
+}

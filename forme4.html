@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forme4.css">
+</head>
+
+<body>
+    <div id="naslov">
+        <p>Welcome to the 24x7 Fitness Club : Courts Reservation Page!!</p>
+    </div>
+    <div id="osnovni">
+        <form action="" method="get" enctype="application/x-www-form-urlencoded">
+            <fieldset>
+                <legend>Member Demographics</legend>
+                <div class="divName">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required autofocus>
+                </div>
+                <div class="divMember">
+                    <label for="member">Are you a Member?</label>
+                    <div>
+                        <input type="radio" name="member" id="member">
+                        <label for="member">Member</label>
+                        <input type="radio" name="member" id="non_member">
+                        <label for="non_member">Non-member</label>
+                    </div>
+                </div>
+                <div class="divName">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+            </fieldset>
+            <div id="divIspodFieldset">
+                <div class="divName">
+                    <p>Faciliti</p>
+                    <select name="facility" id="facility">
+                        <option value="badminton">Badminton</option>
+                        <option value="basketball">Basketball</option>
+                        <option value="football">Football</option>
+                        <option value="ragby">Ragby</option>
+                        <option value="tennis">Tennis</option>
+                        <option value="volleyball">Volleyball</option>
+                    </select>
+                </div>
+                <div class="divMember">
+                    <label class="member" for="date">Select a reservation date and time</label>
+                    <div>
+                        <input type="date" name="date" id="date">
+                        <input type="time" name="time" id="date">
+                    </div>
+                </div>
+                <div id="divAgree">
+                    <input type="checkbox" name="agreee" id="agree">
+                    <label for="agree">I agree to the club's reservation policy</label>
+                </div>
+                <div id="submit">
+                    <input type="submit" value="SUBMIT">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

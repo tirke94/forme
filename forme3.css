@@ -1,0 +1,159 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#osnovni {
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 2px solid black;
+    width: 70%;
+}
+
+h1 {
+    margin-top: 0px;
+    text-align: center;
+    background-color: yellow;
+    color: red;
+}
+
+#flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#flex div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* column-gap: 5px; */
+}
+
+#flex .left {
+    margin: 4px 0px;
+}
+
+#flex .right {
+    margin: 4px 0px;
+}
+
+.left {
+    width: 30%;
+    background-color: aqua;
+    padding: 0.3rem 1rem;
+    border: 1px solid blue;
+    font-size: 1rem;
+    padding: 6px 2px;
+}
+
+.right {
+    width: 65%;
+    background-color: aqua;
+    border: 1px solid blue;
+    font-size: 1rem;
+    padding: 5px 2px;
+}
+[type='text'], [type='password'] {
+    width: 50%;
+    padding: 2px 4px;
+}
+
+#age {
+    width: 20%;
+}
+
+#address {
+    width: 65%;
+    margin: 4px 0px;
+}
+
+#checkbox div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#checkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    padding-left: 0.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    width: 65%;
+    height: 6rem;
+}
+
+#selectGame {
+    margin: 4px 0px;
+}
+
+#divArea label,
+textarea {
+    height: 10rem;
+}
+
+#divArea label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#selectGame .left {
+    height: 6rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#flex #gender {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#gender {
+    padding: 5px;
+}
+
+#gender * {
+    margin-left: 5px;
+}
+
+#file {
+    width: 25rem;
+    border: 1px solid blue;
+    background-color: aquamarine;
+    padding: 1px;
+}
+#divFile{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid blue;
+}
+#reset{
+    padding: 5px 0px;
+    width: 200px;
+    background-color: aquamarine;
+}
+#submit{
+    padding: 5px 0px;
+    width: 200px;
+    background-color: aquamarine;
+}
+#resetSubmit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    margin-top: 4px;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    background-color: aqua;
+    border: 1px solid blue;
+}

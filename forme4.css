@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#naslov{
+    width: 50%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 2rem auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#osnovni{
+    width: 98%;
+    border: 2px dotted black;
+    margin: auto;
+    padding: 1rem;
+}
+legend{
+    margin-left: 1rem;
+}
+fieldset div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.divName{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding: 0.2rem 0.5rem;
+}
+.divMember {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divMember div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#divAgree{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 1rem;
+}
+#divIspodFieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 1rem;
+    margin-top: 1rem;
+}

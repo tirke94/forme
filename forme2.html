@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forme2.css">
+</head>
+
+<body>
+    <form action="" method="get" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <div class="padding">
+                <label for="user">Username</label> <br>
+                <input type="text" name="username" id="user" placeholder="Your Name" required autofocus><br>
+                <label for="pass">Password</label><br>
+                <input type="password" name="password" id="pass" required min="4"><br>
+                <label for="email">E-mail</label><br>
+                <input type="email" name="email" id="email" placeholder="ex:john@example.com"><br>
+                <label for="gender">Gender</label><br>
+                <select name="pol" id="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+        </fieldset>
+    </form>
+    <form action="" method="get" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>Your Favourites</legend>
+            <div class="padding" id="form2">
+                <label for="editor">Choose Your Editor</label>
+                <div>
+                    <input type="checkbox" name="vsc" id="vsc">
+                    <label class="bezMargine" for="vsc">VSC</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="sublime" id="sub">
+                    <label class="bezMargine" for="sub">Sublime Text</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="note" id="note">
+                    <label class="bezMargine" for="note">Note++</label>
+                </div>
+                <hr>
+                <label for="editor">Choose Your browser</label>
+                <div>
+                    <input type="checkbox" name="google" id="google">
+                    <label class="bezMargine" for="google">Google ChromeVSC</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="opera" id="opera">
+                    <label class="bezMargine" for="opera">Opera</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="fire" id="fire">
+                    <label class="bezMargine" for="fire">Firefox</label>
+                </div>
+                <hr>
+                <label for="editor">Choose Operating System</label>
+                <div>
+                    <input type="checkbox" name="windows" id="windows">
+                    <label class="bezMargine" for="windows">Windows</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="macin" id="macin">
+                    <label class="bezMargine" for="macin">Macinfosh</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="linux" id="linux" checked>
+                    <label class="bezMargine" for="linux">Linux</label>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    <form action="" method="get" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>Your Message</legend>
+            <textarea name="mess" id="mess" cols="30" rows="10"></textarea>
+            <input type="submit" id="submit" value="Send Your Data">
+        </fieldset>
+    </form>
+</body>
+
+</html>
